@@ -1,3 +1,4 @@
+@layer theme, base, clerk, components, utilities;
 @import "tailwindcss";
 
 :root {
@@ -148,4 +149,32 @@
   66% {
     transform: translate3d(-20px, 30px, 0) scale(0.95);
   }
+}
+
+/* ----------------------------------------------------- Clerk ----------------------------------------------------- */
+/* Clerk authentication overrides */
+
+.cl-formFieldInput {
+  border: 1px solid var(--border) !important;
+  background: var(--surface-secondary) !important;
+  box-shadow: none !important;
+}
+
+.cl-formFieldInput:focus,
+.cl-formFieldInput:focus-visible {
+  border-color: var(--border-focus) !important;
+  outline: none !important;
+  box-shadow: 0 0 0 1px var(--border-focus) !important;
+}
+
+.cl-socialButtonsBlockButton {
+  border: 1px solid var(--border) !important;
+  background: var(--surface) !important;
+  color: var(--text-primary) !important;
+  box-shadow: none !important;
+}
+
+.cl-socialButtonsBlockButton {
+  background: var(--surface-hover) !important;
+  border-color: var(--border) !important;
 }

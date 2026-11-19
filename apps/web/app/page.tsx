@@ -3,14 +3,18 @@ import { Button } from "@/components/ui/Button";
 
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center">
-      <div className="flex items-center gap-4">
+    <main className="flex min-h-screen items-center justify-center bg-background">
+      <div className="flex items-center gap-3">
         <SignInButton mode="modal">
-          <Button>Login</Button>
+          <Button variant="primary" size="lg">
+            Login
+          </Button>
         </SignInButton>
 
         <SignUpButton mode="modal">
-          <Button>Register</Button>
+          <Button variant="outline" size="lg">
+            Register
+          </Button>
         </SignUpButton>
       </div>
     </main>
