@@ -1,0 +1,83 @@
+/* [next]/internal/font/google/bjcree_385e1dec.module.css [app-client] (css) */
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/4dcbe4ad8c3c5788.0tzxb6-hl1v6y.woff2") format("woff2");
+  unicode-range: U+2C7, U+2D8-2D9, U+2DB, U+307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB?;
+}
+
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../media/4defae4fc8d45c9c.p.43y3nl4gkr_vs.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/394344a4431f2ac2.0c-wlqsnurfh-.woff2") format("woff2");
+  unicode-range: U+2C7, U+2D8-2D9, U+2DB, U+307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB?;
+}
+
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../media/f2f54d3176ebbb8f.p.32vj1e_a2p_-8.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../media/0728117ce0f08230.11cfsovri-ydg.woff2") format("woff2");
+  unicode-range: U+2C7, U+2D8-2D9, U+2DB, U+307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB?;
+}
+
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../media/3b0b535e3524ebb4.p.22yq_haay4wt6.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/e7d44095ab5f2ba0.1ssizr16tod-k.woff2") format("woff2");
+  unicode-range: U+2C7, U+2D8-2D9, U+2DB, U+307, U+1400-167F, U+18B0-18F5, U+25CC, U+11AB?;
+}
+
+@font-face {
+  font-family: BJCree;
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../media/711c8e61084e243f.p.3ci4bob9r0dp7.woff2") format("woff2");
+  unicode-range: U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+.bjcree_385e1dec-module__d7F7Yq__className {
+  font-family: BJCree;
+  font-style: normal;
+}
+
+.bjcree_385e1dec-module__d7F7Yq__variable {
+  --font-bjcree: "BJCree";
+}
+
+/*# sourceMappingURL=%5Bnext%5D_internal_font_google_bjcree_385e1dec_module_css_1igg3k2-ikub5._.single.css.map*/

@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+
+  --background: #f5ebdd;
+  --background-secondary: #efe2cf;
+  --background-subtle: #f9f5ee;
+
+  --surface: #fffcf6;
+  --surface-secondary: #f2e7d8;
+  --surface-hover: #eae0d1;
+
+  --text-primary: #302116;
+  --text-secondary: #66513e;
+  --text-muted: #806e5b;
+  --text-disabled: #b5a38f;
+  --text-inverse: #fffcf6;
+
+  --border: #ddceba;
+  --border-subtle: #eae0d2;
+  --border-secondary: #cdb99f;
+  --border-strong: #a99175;
+  --border-focus: #78805a;
+
+  --primary: #4b2d1b;
+  --primary-hover: #63402a;
+  --primary-subtle: #e9d9c7;
+  --primary-foreground: #fffcf6;
+
+  --secondary: #78805a;
+  --secondary-hover: #626b47;
+  --secondary-subtle: #e5e8d9;
+  --secondary-foreground: #fffcf6;
+
+  --accent: #ac693f;
+  --accent-subtle: #f1dfcf;
+  --accent-foreground: #fffcf6;
+
+  /* Danger */
+  --danger: #b5473c;
+  --danger-hover: #96382f;
+  --danger-subtle: #f5e2de;
+  --danger-foreground: #fffcf6;
+  --danger-border: #e7c2bc;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-background-subtle: var(--background-subtle);
+
+  --color-surface: var(--surface);
+  --color-surface-secondary: var(--surface-secondary);
+  --color-surface-hover: var(--surface-hover);
+
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-muted: var(--text-muted);
+  --color-disabled: var(--text-disabled);
+  --color-inverse: var(--text-inverse);
+
+  --color-border: var(--border);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-secondary: var(--border-secondary);
+  --color-border-strong: var(--border-strong);
+  --color-border-focus: var(--border-focus);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-subtle: var(--primary-subtle);
+  --color-primary-foreground: var(--primary-foreground);
+
+  --color-secondary: var(--secondary);
+  --color-secondary-hover: var(--secondary-hover);
+  --color-secondary-subtle: var(--secondary-subtle);
+  --color-secondary-foreground: var(--secondary-foreground);
+
+  --color-accent: var(--accent);
+  --color-accent-subtle: var(--accent-subtle);
+  --color-accent-foreground: var(--accent-foreground);
+
+  --color-danger: var(--danger);
+  --color-danger-hover: var(--danger-hover);
+  --color-danger-subtle: var(--danger-subtle);
+  --color-danger-foreground: var(--danger-foreground);
+  --color-danger-border: var(--danger-border);
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--background);
+    color: var(--text-primary);
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::selection {
+    background-color: var(--primary-subtle);
+    color: var(--primary);
+  }
+
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+@theme inline {
+  --font-display: var(--font-bjcree);
+  --font-sans: var(--font-elms-sans);
+}
+
+@layer base {
+  body {
+    font-family: var(--font-elms-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-bjcree);
+  }
+}
+
+@keyframes ambient-float {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) scale(1);
+  }
+
+  33% {
+    transform: translate3d(35px, -25px, 0) scale(1.08);
+  }
+
+  66% {
+    transform: translate3d(-20px, 30px, 0) scale(0.95);
+  }
+}
